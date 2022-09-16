@@ -13,7 +13,6 @@ void draw() {
   stroke(255);
   float xOff = 0;
   float yOff = 0;
-  clear();
 
   //night sky
   for (float bgGrad = height; bgGrad > 0; bgGrad--) {
