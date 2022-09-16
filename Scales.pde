@@ -84,10 +84,6 @@ void draw() {
   }
 }
 
-void keyPressed() {
-  redraw();
-}
-
 void blade(float xPos, float yPos, float offX, float offY) {
   strokeWeight(1);
 
