@@ -14,8 +14,6 @@ void draw() {
   
   float xOff = 0;
   float yOff = 0;
-  
-  clear();
 
   //night sky (shouldve used lerpColor! but distance formula works...)
   for (float bgGrad = height; bgGrad > 0; bgGrad--) {
