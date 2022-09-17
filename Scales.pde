@@ -176,13 +176,13 @@ void grain(float stemX, float stemY, float stemOffX, float stemOffY) {
     translate(0,grainOS-stemY);
     beginShape();
     vertex(0,0);
-    vertex( (0 + 0 + tip)/2 - gwidth,(0 + 0 - tip)/2 - gwidth);
+    vertex( tip/2 - gwidth,tip/2 - gwidth);
     vertex(0+tip,0-tip);
-    vertex( (0 + 0 + tip)/2 + gwidth,(0 + 0 - tip)/2 + gwidth);
+    vertex( tip)/2 + gwidth,tip/2 + gwidth);
     vertex(0,0);
-    vertex( (0 + 0 - tip)/2 + gwidth,(0 + 0 - tip)/2 - gwidth);
+    vertex( tip)/2 + gwidth,tip/2 - gwidth);
     vertex(0-tip,0-tip);
-    vertex( (0 + 0 - tip)/2 - gwidth,(0 + 0 - tip)/2 + gwidth);
+    vertex( tip/2 - gwidth,tip/2 + gwidth);
     vertex(0,0);
     endShape();
     resetMatrix();
