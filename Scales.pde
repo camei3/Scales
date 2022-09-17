@@ -178,9 +178,9 @@ void grain(float stemX, float stemY, float stemOffX, float stemOffY) {
     vertex(0,0);
     vertex( tip/2 - gwidth,tip/2 - gwidth);
     vertex(0+tip,0-tip);
-    vertex( tip)/2 + gwidth,tip/2 + gwidth);
+    vertex( tip/2 + gwidth,tip/2 + gwidth);
     vertex(0,0);
-    vertex( tip)/2 + gwidth,tip/2 - gwidth);
+    vertex( tip/2 + gwidth,tip/2 - gwidth);
     vertex(0-tip,0-tip);
     vertex( tip/2 - gwidth,tip/2 + gwidth);
     vertex(0,0);
